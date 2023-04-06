@@ -1,0 +1,902 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Be Vietnam Pro", sans-serif;
+  box-sizing: border-box;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  margin: 40px;
+}
+
+.ul {
+  display: flex;
+  gap: 28px;
+  list-style: none;
+}
+
+.sports:hover,
+.products:hover,
+.aboutUs:hover,
+.trainning:hover,
+.community:hover {
+  cursor: pointer;
+  color: #242e5299;
+}
+
+input#Contact {
+  font-family: "Be Vietnam Pro", sans-serif;
+  background-color: #8b48bf;
+  color: white;
+  border-radius: 50px;
+  width: 134px;
+  height: 44px;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+input#Contact:hover {
+  cursor: pointer;
+  background-color: #8b48bfb2;
+}
+
+main {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 40px;
+  margin: 40px;
+}
+
+img.man {
+  margin-top: 25px;
+}
+
+.live {
+  color: #232c50;
+  text-align: center;
+  width: 450px;
+  height: 228px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 114.6%;
+  letter-spacing: -0.035em;
+  flex: none;
+  align-self: stretch;
+}
+
+h1.live {
+  margin-left: 100px;
+  margin-top: 140px;
+}
+
+.finalOpen {
+  color: #000000;
+  width: 450px;
+  height: 71px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 500;
+  font-size: 16.5584px;
+  line-height: 157.1%;
+  flex: none;
+  align-self: stretch;
+}
+
+div.finalOpen {
+  margin-left: -444px;
+  margin-top: 400px;
+}
+
+.contactTwo {
+  margin-left: -210px;
+  margin-top: 460px;
+}
+
+input#Contact {
+  font-family: "Be Vietnam Pro", sans-serif;
+  background-color: #8b48bf;
+  color: white;
+  border-radius: 50px;
+  width: 134px;
+  height: 44px;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+input#Contact:hover {
+  cursor: pointer;
+  background-color: #8b48bfb2;
+}
+
+.different {
+  position: absolute;
+  margin-left: -2px;
+  margin-top: 840px;
+  background-color: #8b48bf;
+  width: 1190px;
+  height: 168px;
+}
+
+.differentBetween {
+  color: white;
+  margin-left: 222px;
+  margin-top: 40px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 114.6%;
+  width: 450px;
+  height: 88px;
+}
+
+.firstLorem {
+  position: absolute;
+  margin-left: 550px;
+  margin-top: 840px;
+  width: 450px;
+  height: 88px;
+  font-family: "Be Vietnam pro", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 151.1%;
+  color: white;
+}
+
+.differentTwo {
+  background-color: #fafafa;
+  position: absolute;
+  margin-left: -2px;
+  margin-top: 1375px;
+  width: 1190px;
+  height: 360px;
+}
+
+.one {
+  margin-left: 98px;
+  margin-top: 50px;
+}
+
+button.one {
+  background-color: #8b48bf;
+  color: white;
+  padding: 10px 25px;
+  gap: 10px;
+  width: 69px;
+  height: 43px;
+  border-radius: 30px;
+}
+
+.track {
+  margin-top: -40px;
+  margin-left: 173px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: #323851;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: -0.015em;
+}
+
+.donec {
+  width: 437px;
+  height: 104px;
+  font-family: "Be Vietnam", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: -0.015em;
+  color: #b9b9c1;
+  margin-top: 5px;
+  margin-left: 173px;
+}
+
+.two {
+  position: absolute;
+  margin-left: 644px;
+  margin-top: -134px;
+}
+
+button.two {
+  background-color: #8b48bf;
+  color: white;
+  padding: 10px 25px;
+  gap: 10px;
+  width: 69px;
+  height: 43px;
+  border-radius: 30px;
+}
+
+.advance {
+  margin-top: -131px;
+  margin-left: 720px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: #323851;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: -0.015em;
+}
+
+.donecTwo {
+  position: absolute;
+  width: 437px;
+  height: 104px;
+  font-family: "Be Vietnam", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: -0.015em;
+  color: #b9b9c1;
+  margin-top: -103px;
+  margin-left: 719px;
+}
+
+.three {
+  margin-left: 338px;
+  margin-top: 133px;
+}
+
+button.three {
+  background-color: #8b48bf;
+  color: white;
+  padding: 10px 25px;
+  gap: 10px;
+  width: 69px;
+  height: 43px;
+  border-radius: 30px;
+}
+
+.everything {
+  margin-top: -42px;
+  margin-left: 416px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: #323851;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: -0.015em;
+}
+
+.donecThree {
+  width: 437px;
+  height: 104px;
+  font-family: "Be Vietnam", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: -0.015em;
+  color: #b9b9c1;
+  margin-top: 8px;
+  margin-left: 416px;
+}
+
+.differentThree {
+  position: absolute;
+  background-color: #fafafa;
+  margin-left: -2px;
+  margin-top: 2750px;
+  width: 1190px;
+  height: 260px;
+}
+
+.best {
+  position: absolute;
+  color: #242e53;
+  font-family: "Be Vietnam Pro", sans-serif;
+  width: 424px;
+  height: 61px;
+  font-weight: 700;
+  font-size: 39.2143px;
+  line-height: 156.6%;
+  letter-spacing: -0.01em;
+  margin-left: 450px;
+  margin-top: 2085px;
+}
+
+.sanyo {
+  font-family: "Be Vietnam", sans-serif;
+  font-weight: 700;
+  font-size: 16.0714px;
+  line-height: 156.6%;
+  letter-spacing: -0.01em;
+  color: #3f4868;
+  margin-left: 180px;
+  margin-top: 59px;
+}
+
+.sanyoLogo {
+  position: absolute;
+  margin-left: 170px;
+  margin-top: 2500px;
+}
+
+.etiam {
+  width: 403px;
+  height: 100px;
+  font-family: "Be Vietnam", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 156.6%;
+  letter-spacing: -0.015em;
+  color: #b9b9c1;
+  margin-top: 14px;
+}
+
+.lebron {
+  width: 53px;
+  height: 25px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-size: 16.0714px;
+  line-height: 156.6%;
+  letter-spacing: -0.01em;
+  color: #3f4868;
+  margin-left: 600px;
+  margin-top: -139px;
+}
+
+.lebronLogo {
+  position: absolute;
+  margin-left: 590px;
+  margin-top: 2500px;
+}
+
+.etiamTwo {
+  width: 403px;
+  height: 100px;
+  font-family: "Be Vietnam", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 156.6%;
+  letter-spacing: -0.015em;
+  color: #b9b9c1;
+  margin-left: 395px;
+  margin-top: 14px;
+}
+
+.navarroLogo {
+  position: absolute;
+  margin-left: 975px;
+  margin-top: 2495px;
+}
+
+.navarro {
+  width: 53px;
+  height: 25px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-size: 16.0714px;
+  line-height: 156.6%;
+  letter-spacing: -0.01em;
+  color: #3f4868;
+  margin-left: 982px;
+  margin-top: -139px;
+}
+
+.etiamThree {
+  width: 403px;
+  height: 100px;
+  font-family: "Be Vietnam", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 156.6%;
+  letter-spacing: -0.015em;
+  color: #b9b9c1;
+  margin-left: 793px;
+  margin-top: 13px;
+}
+
+.more {
+  position: absolute;
+  margin-left: 555px;
+  margin-top: 3150px;
+}
+
+input#More {
+  font-family: "Be Vietnam Pro", sans-serif;
+  background-color: #8b48bf;
+  color: white;
+  border-radius: 50px;
+  width: 134px;
+  height: 44px;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+input#More:hover {
+  cursor: pointer;
+  background-color: #8b48bfb2;
+}
+
+.differentFourth {
+  position: absolute;
+  background-color: #8b48bf;
+  width: 1190px;
+  height: 224px;
+  margin-top: 3800px;
+  margin-left: -2px;
+}
+
+.getToKnow {
+  color: white;
+  width: 393px;
+  height: 96px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.005em;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.goForIt {
+  margin-top: -50px;
+  margin-left: 750px;
+}
+
+.goForIt input {
+  padding: 10px;
+  gap: 10px;
+  width: 134px;
+  height: 44px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  color: #8b48bf;
+}
+
+.goForIt input:hover {
+  cursor: pointer;
+  color: #8b48bfb2;
+}
+
+.differentFive {
+  position: absolute;
+  background-color: #1e1e26;
+  width: 1190px;
+  height: 250px;
+  margin-top: 4274px;
+  margin-left: -2px;
+}
+
+.sportitTwo {
+  color: white;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 40px;
+  margin-left: 140px;
+}
+
+.facebookIcon {
+  margin-top: 25px;
+  margin-left: 150px;
+}
+
+.facebookIcon:hover {
+  font-size: 20px;
+}
+
+.youtubeIcon {
+  margin-top: -20px;
+  margin-left: 175px;
+}
+
+.youtubeIcon:hover {
+  font-size: 20px;
+}
+
+.twitterIcon {
+  margin-top: -20px;
+  margin-left: 200px;
+}
+
+.twitterIcon:hover {
+  font-size: 20px;
+}
+
+.pinterestIcon {
+  margin-top: -20px;
+  margin-left: 225px;
+}
+
+.pinterestIcon:hover {
+  font-size: 20px;
+}
+
+.instagramIcon {
+  margin-top: -20px;
+  margin-left: 250px;
+}
+
+.instagramIcon:hover {
+  font-size: 20px;
+}
+
+i.fa-brands.fa-facebook::before,
+  i.fa-brands.fa-youtube::before,
+  i.fa-brands.fa-twitter::before,
+  i.fa-brands.fa-pinterest::before,
+  i.fa-brands.fa-instagram::before {
+    color: white;
+  }
+
+.ulFirst {
+  list-style-type: none;
+  color: #8a8e93;
+  padding: 0px;
+  gap: 12px;
+  width: 69px;
+  height: 128px;
+  margin-top: -70px;
+  margin-left: 400px;
+}
+
+.ulSecond {
+  list-style-type: none;
+  color: #8a8e93;
+  margin-left: 550px;
+  margin-top: -127px;
+}
+
+.homeUL:hover,
+.pricingUL:hover,
+.productsUL:hover,
+.aboutUsUL:hover,
+.trainningUL:hover,
+.communityUL:hover,
+.privacyPolicyUL:hover {
+  cursor: pointer;
+  color: #8b48bfb2;
+}
+
+.updateInYourBox {
+  margin-left: 720px;
+  margin-top: -60px;
+}
+
+.updateInYourBox,
+.input {
+  padding: 10px;
+  gap: 10px;
+  width: 201px;
+  height: 44px;
+  background-color: white;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.updateInYourBoxButton {
+  position: absolute;
+  margin-left: 930px;
+  margin-top: -40px;
+}
+
+button.updateInYourBoxButton {
+  padding: 10px;
+  gap: 10px;
+  width: 63px;
+  height: 42px;
+  background: #8b48bf;
+  color: white;
+  border-radius: 50px;
+}
+
+input {
+  border: none;
+}
+
+button.updateInYourBoxButton:hover {
+  cursor: pointer;
+  background-color: #8b48bfb2;
+}
+
+.copyrightText {
+  color: #8c8c94;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 500;
+  font-size: 12.5px;
+  line-height: 18px;
+  margin-left: 780px;
+  margin-top: 80px;
+}
+
+.menu {
+  visibility: hidden;
+}
+
+.Manage {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  header nav .ul {
+    display: none;
+  }
+
+  .contact {
+    visibility: hidden;
+  }
+
+  .menu {
+    visibility: visible;
+    position: absolute;
+    margin-left: 589px;
+    margin-top: -368px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .man {
+    display: flex;
+    justify-content: center;
+  }
+
+  img.man {
+    margin-top: -1115px;
+  }
+
+  h1.live {
+    margin-left: -400px;
+    margin-top: 385px;
+    width: 400px;
+    height: 228px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 114.6%;
+    letter-spacing: -0.035em;
+  }
+
+  div.finalOpen {
+    margin-left: -400px;
+    margin-top: 735px;
+    width: 400px;
+    height: 71px;
+    font-weight: 500;
+    font-size: 16.5584px;
+    line-height: 157.1%;
+  }
+
+  .sportit {
+    margin-top: -290px;
+  }
+
+  input#Contact {
+    margin-top: 225px;
+  }
+
+  div.different {
+    margin-left: 80px;
+    margin-top: 1168px;
+    background-color: #3cddf3;
+    width: 480px;
+    height: 306px;
+  }
+
+  .differentBetween {
+    margin-left: 25px;
+    margin-top: 50px;
+  }
+
+  .firstLorem {
+    visibility: visible;
+    margin-left: 104px;
+    margin-top: 1222px;
+  }
+
+  .Manage {
+    flex: none;
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin-top: 1010px;
+    margin-left: -450px;
+    color: white;
+    width: 440px;
+    height: 88px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.1%;
+  }
+
+  div.differentTwo {
+    margin-top: 1692px;
+    margin-left: 80px;
+    width: 479px;
+    height: 642px;
+  }
+
+  .one {
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+  .track {
+    background-color: rgba(139, 72, 191, 0.3);
+    margin-left: 110px;
+  }
+
+  .donec {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+
+  button.two {
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+
+  .advance {
+    background-color: rgba(139, 72, 191, 0.3);
+    margin-top: 31px;
+    margin-left: 110px;
+  }
+
+  .donecTwo {
+    margin-top: 77px;
+    margin-left: 30px;
+  }
+
+  .three {
+    margin-left: 30px;
+    margin-top: 155px;
+  }
+
+  .everything {
+    background-color: rgba(139, 72, 191, 0.3);
+    margin-left: 110px;
+  }
+
+  .donecThree {
+    margin-top: 24px;
+    margin-left: 30px;
+  }
+
+  .sanyoLogo,
+  .navarroLogo,
+  .sanyo,
+  .navarro,
+  .etiam,
+  .etiamThree {
+    visibility: hidden;
+  }
+
+  .best {
+    margin-left: 155px;
+    margin-top: 2555px;
+  }
+
+  .differentThree {
+    margin-left: 100px;
+    margin-top: 3000px;
+    width: 445px;
+    height: 254px;
+  }
+
+  .lebronLogo {
+    margin-top: 2730px;
+    margin-left: 280px;
+  }
+
+  .lebron {
+    margin-left: 186px;
+    margin-top: -156px;
+  }
+
+  .etiamTwo {
+    margin-left: 30px;
+    width: 390px;
+    height: 78px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 156.6%;
+  }
+
+  input#More {
+    margin-top: 250px;
+    margin-left: -300px;
+  }
+
+  .differentFourth {
+    background-color: rgba(60, 221, 243, 1);
+    width: 484px;
+    height: 366px;
+    margin-left: 80px;
+    margin-top: 3950px;
+  }
+
+  .getToKnow {
+    margin-left: 70px;
+    width: 324px;
+    height: 192px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.005em;
+  }
+
+  .goForIt {
+    margin-top: -2px;
+    margin-left: 175px;
+  }
+
+  .goForIt input {
+    background-color: #232c50;
+    color: white;
+  }
+
+  .differentFive {
+    margin-top: 4851px;
+    margin-left: 80px;
+    width: 484px;
+    height: 534.71px;
+  }
+
+  .sportitTwo {
+    margin-top: 370px;
+    margin-left: 200px;
+  }
+
+  .facebookIcon {
+    margin-top: -80px;
+    margin-left: 40px;
+  }
+
+  .youtubeIcon {
+    margin-left: 140px;
+  }
+
+  .twitterIcon {
+    margin-left: 240px;
+  }
+
+  .pinterestIcon {
+    margin-left: 340px;
+  }
+
+  .instagramIcon {
+    margin-left: 440px;
+  }
+
+  i.fa-brands.fa-facebook::before,
+  i.fa-brands.fa-youtube::before,
+  i.fa-brands.fa-twitter::before,
+  i.fa-brands.fa-pinterest::before,
+  i.fa-brands.fa-instagram::before {
+    color: white;
+  }
+
+  .copyrightText {
+    margin-left: 140px;
+    margin-top: 260px;
+  }
+
+  .ulFirst {
+    color: white;
+    margin-top: -200px;
+    margin-left: 100px;
+  }
+
+  .ulSecond {
+    color: white;
+    margin-left: 300px;
+  }
+
+  .updateInYourBox input {
+    position: absolute;
+    margin-top: -105px;
+    margin-left: -650px;
+    padding: 10px 50px;
+    gap: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+
+  .updateInYourBoxButton {
+    margin-left: 345px;
+    margin-top: -140px;
+  }
+}
